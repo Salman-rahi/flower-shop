@@ -97,7 +97,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     margin-top: 40px;
 }
 
@@ -365,9 +365,12 @@ body{
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 40%;
+    
 }
 
+.footer-text{
+    width: 60%;
+}
 /* .footer-text{
     display: flex;
     flex-direction: column;
