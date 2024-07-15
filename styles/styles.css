@@ -116,13 +116,132 @@ body{
 
 .features-img-1{
     background-color: rgba(167, 33, 98, 0.15);
+    position: relative;
     
 }
 .features-img-2{
     background-color: rgba(5, 151, 160, 0.15);
+    position: relative;
 
 }
 .features-img-3{
     background-color: rgba(71, 125, 17, 0.15);
+    position: relative;
 
+}
+
+.features-img-1 p, .features-img-2 p, .features-img-3 p{
+    position: absolute;
+    bottom: -50px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+/* info-section */
+
+.info-section{
+    max-width: 1920px;
+    height: 320px;
+    /* margin: 0 auto; */
+    border: 1px solid red;
+    margin-top: 140px;
+}
+
+.info-section-container{
+    width: 90%;
+    height: 320px;
+    /* border: 1px solid rgb(1, 1, 1); */
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info-section-1,.info-section-2,.info-section-3{
+    width: 372px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-section-container  a{
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+/* Sales section */
+
+.sale-section{
+    max-width: 1920px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 140px;
+}
+
+.sale-section-container{
+    width: 90%;
+    height: 620px;
+    border: 1px solid rgb(1, 1, 1);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sale-section-content{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sale-section-text{
+    width: 80%;
+    height: 620px;
+    /* border: 1px solid rgb(1, 1, 1); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sale-section-img{
+    width: 50%;
+    height: 620px;
+    /* border: 1px solid rgb(215, 11, 11); */
+}
+
+.sale-section-text h1{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.desing{
+    color: rgb(229, 84, 115);
+}
+
+.sale-section-text button{
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    border: none;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+}
+.sale-section-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
