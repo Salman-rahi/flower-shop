@@ -257,6 +257,7 @@ body{
     height: 620px;
     margin: 0 auto;
     /* border: 2px solid black; */
+    
 }
 
 .social-media-text{
@@ -299,6 +300,8 @@ body{
     border: 2px solid black;
     background-image: url(../images/latest-deals-bg.png);
     background-position: center;
+    border: none;
+    border-radius: 10px;
 }
 
 .deal-section-container{
