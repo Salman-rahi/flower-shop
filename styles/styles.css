@@ -245,3 +245,41 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+/* social-media-start */
+.social-midea{
+    max-width: 1920px;
+    height: 620px;
+    margin-top: 140px;
+}
+.social-media-container{
+    width: 90%;
+    height: 620px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+
+.social-media-text{
+    /* border: 2px solid black; */
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-media-text h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.social-media-images{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+.social-media-images img{
+    border-radius: 8px;
+}
