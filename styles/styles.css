@@ -22,7 +22,7 @@ body{
     width: 90%;
     margin: 0 auto;
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .banner-text-container{
     width: 50%;
@@ -76,7 +76,7 @@ body{
 .features-img-container{
     width: 90%;
     height: 850px;
-    border: 1px solid rgb(1, 1, 1);
+    /* border: 1px solid rgb(1, 1, 1); */
     margin: 0 auto;
 }
 
@@ -104,7 +104,7 @@ body{
 .features-img-image{
     width: 464px;
     height: 605px;
-    border: 1px solid rgb(0, 64, 255);
+    /* border: 1px solid rgb(0, 64, 255); */
     display: flex;
     justify-content: center;
     align-items: end;
@@ -145,7 +145,7 @@ body{
     max-width: 1920px;
     height: 320px;
     /* margin: 0 auto; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 140px;
 }
 
@@ -183,7 +183,7 @@ body{
 
 .sale-section{
     max-width: 1920px;
-    height: 620px;
+    height: 420px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     margin-top: 140px;
@@ -191,8 +191,8 @@ body{
 
 .sale-section-container{
     width: 90%;
-    height: 620px;
-    border: 1px solid rgb(1, 1, 1);
+    height: 420px;
+    /* border: 1px solid rgb(1, 1, 1); */
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -206,7 +206,7 @@ body{
 
 .sale-section-text{
     width: 80%;
-    height: 620px;
+    height: 420px;
     /* border: 1px solid rgb(1, 1, 1); */
     display: flex;
     flex-direction: column;
@@ -218,7 +218,7 @@ body{
 
 .sale-section-img{
     width: 50%;
-    height: 620px;
+    height: 420px;
     /* border: 1px solid rgb(215, 11, 11); */
 }
 
@@ -282,4 +282,110 @@ body{
 
 .social-media-images img{
     border-radius: 8px;
+}
+
+/* Deal section styles */
+
+.deal-section{
+    max-width: 1920px;
+    height: 420px;
+    margin-top: 100px;
+}
+
+.deal-section-container{
+    width: 90%;
+    height: 420px;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-image: url(../images/latest-deals-bg.png);
+    background-position: center;
+}
+
+.deal-section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.deal-section-text h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.deal-section-text p{
+    margin-bottom: 20px;
+}
+
+.deal-section-container input{
+    height: 64px;
+    width: 700px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+}
+
+.deal-section-container input::placeholder{
+    font-weight: 400;
+    Font-size: 16px;
+    padding-left: 20px;
+}
+
+.deal-section-container button{
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* footer style start */
+
+.footer{
+    width: 1920px;
+    height: 449px;
+    background-color: black;
+    margin-top: 140px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-details{
+    display: flex;
+    /* flex-direction: column */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 40%;
+}
+
+/* .footer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+} */
+
+.footer-text h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.desing-2{
+    color: rgb(229, 84, 115);;
+}
+
+.footer-text p{
+    margin-bottom: 20px;
+}
+
+.desing-3{
+    color: rgba(255, 255, 255, 0.4);
 }
